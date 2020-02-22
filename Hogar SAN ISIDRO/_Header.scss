@@ -1,0 +1,18 @@
+header{
+  background-color: $blanco;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: $tamletra;
+    nav{
+      a{
+        color: $verde;
+        text-decoration: underline;
+      }
+      a.enrojo{
+        color: $naranja;
+
+      }
+    }
+
+}

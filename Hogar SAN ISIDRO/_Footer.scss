@@ -1,0 +1,28 @@
+footer{
+  display: block;
+  width: 100%;
+  max-width:780px;
+  margin:auto;
+  nav{
+    display: flex;
+    justify-content: space-around;
+    color: $verde;
+    text-decoration: underline;
+    }
+  ul{
+    display: flex;
+    justify-content: center;
+    img{
+        border-radius: 15px;
+        margin:23px;
+        }
+    }
+  p{
+    display: block;
+    width: 100%;
+    max-width:400px;
+    margin: 0 auto;
+    color: grey;
+    text-align: center;
+    }
+}

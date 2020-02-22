@@ -1,0 +1,50 @@
+$verdeprincipal: #829D84;
+$tamanoprincipalletra: 28px;
+$paddingtop: 30px;
+$fontprincipal: Arial;
+@mixin formatouno(){
+  background-color: #00000033;
+  display: flex;
+  justify-content: center;
+  color: $verdeprincipal;
+  font-size: $tamanoprincipalletra;
+  font-family: $fontprincipal;
+  border-radius: 7px;
+}
+@import "header";
+@import "footer";
+@import "section";
+@import "h2";
+body{
+  background: #000000BB;
+  a{
+    padding-top: $paddingtop;
+    display: flex;
+    justify-content: center;
+    color: $verdeprincipal;
+    font-size: $tamanoprincipalletra;
+    font-family: $fontprincipal;
+  }
+  div{
+    padding-top: $paddingtop;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: $fontprincipal;
+    font-size: $tamanoprincipalletra;
+    h1.Magna{
+      color: red;
+    }
+    h1.Premium{
+      color: green;
+    }
+  }
+  p{
+    padding-top: $paddingtop;
+    display: flex;
+    justify-content: center;
+    color: $verdeprincipal;
+    font-size: $tamanoprincipalletra;
+    font-family: $fontprincipal;
+  }
+}

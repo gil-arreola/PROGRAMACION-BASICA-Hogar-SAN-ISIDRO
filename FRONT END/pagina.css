@@ -1,0 +1,31 @@
+body{
+  background: #000000BB;
+}
+a, p{
+  color: white;
+  font-family: "Arial";
+  font-size: 2in;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+div{
+  padding-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 1200px;
+  padding-right: 1200px;
+}
+.Premium{
+  color: green;
+  font-size: 2in
+}
+.Magna{
+color: red;
+font-size: 2in;
+}
+img{
+  display: flex;
+  align-items: : center;
+}
